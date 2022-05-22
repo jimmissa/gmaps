@@ -37,7 +37,7 @@ def is_atomic(elem):
     """
     return (
         isinstance(elem, string_types) or
-        not isinstance(elem, collections.Iterable)
+        not isinstance(elem, collections.abc.Iterable)
     )
 
 
